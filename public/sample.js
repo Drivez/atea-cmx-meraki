@@ -138,7 +138,7 @@
 //    Kristiansand location - 58.1352959,8.1529924
     var center = new google.maps.LatLng(58.1352959, 8.1529924);
     var mapOptions = {
-      zoom: 14,
+      zoom: 11,
       center: center
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
