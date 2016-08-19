@@ -13,7 +13,7 @@ body {
   width: 100%;
   position: relative;
   background: #FFFFFF;
-  border-top: 4px solid #78be20;
+  border-top: 4px solid #6cac20;
   box-shadow: 0 2px 7px rgba(0,0,0,0.2);
 }
 
@@ -118,4 +118,3 @@ button {
 button:hover{
   background: #616060;
 }
-
