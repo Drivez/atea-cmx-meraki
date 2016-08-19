@@ -136,9 +136,10 @@
   // listeners here.
   function initialize() {
 //    Kristiansand location - 58.1352959,8.1529924
-    var center = new google.maps.LatLng(58.1352959, 8.1529924);
+//    Atea Kristiansand location - 58.1533188,8.0031039
+    var center = new google.maps.LatLng(58.1533188, 8.0031039);
     var mapOptions = {
-      zoom: 11,
+      zoom: 13,
       center: center
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
