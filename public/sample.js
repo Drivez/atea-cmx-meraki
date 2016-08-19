@@ -63,9 +63,9 @@
         map: map,
         center: pos,
         radius: client.unc,
-        fillColor: 'RoyalBlue',
+        fillColor: '#6cac20',
         fillOpacity: 0.25,
-        strokeColor: 'RoyalBlue',
+        strokeColor: '#6cac20',
         strokeWeight: 1
       });
     } else {
@@ -135,10 +135,10 @@
   // This is called after the DOM is loaded, so we can safely bind all the
   // listeners here.
   function initialize() {
-//    var center = new google.maps.LatLng(37.7705, -122.3870);
-    var center = new google.maps.LatLng(0, 0);
+//    Kristiansand location - 58.1352959,8.1529924
+    var center = new google.maps.LatLng(58.1352959, 8.1529924);
     var mapOptions = {
-      zoom: 2,
+      zoom: 14,
       center: center
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
